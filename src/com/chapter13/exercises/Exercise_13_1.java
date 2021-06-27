@@ -1,4 +1,4 @@
-package com.exercises.chapter13;
+package com.chapter13.exercises;
 
 public class Exercise_13_1 {
 
