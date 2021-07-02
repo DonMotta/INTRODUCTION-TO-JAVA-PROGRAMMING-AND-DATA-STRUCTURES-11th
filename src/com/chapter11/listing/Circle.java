@@ -1,3 +1,5 @@
+//LISTING 11.2
+
 package com.chapter11.listing;
 
 public class Circle extends GeometricObject {
@@ -15,9 +17,11 @@ public class Circle extends GeometricObject {
 
 	public Circle(double radius, String color, boolean filled) {
 
+		super(color, filled);
 		this.radius = radius;
-		setColor(color);
-		setFilled(filled);
+		
+	//	  setColor(color); setFilled(filled);
+		 
 
 	}
 
