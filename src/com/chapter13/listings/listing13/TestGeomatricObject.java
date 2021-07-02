@@ -9,6 +9,9 @@ public class TestGeomatricObject {
 		GeometricObject geoObject2 = new Rectangle(5, 3);
 		
 		System.out.println("The two objects has the same area? " + equalArea(geoObject1, geoObject2));
+		
+		displayGeomatricObject(geoObject1);
+		displayGeomatricObject(geoObject2);
 
 		
 	}
