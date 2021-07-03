@@ -1,7 +1,7 @@
 //LISTING 11.1
 package com.chapter11.listing;
 
-public abstract class GeometricObject {
+public  class GeometricObject {
 
 	private String color = "White";
 	private boolean filled;
@@ -54,11 +54,7 @@ public abstract class GeometricObject {
 		return "Created on " + dateCteated + "\ncolor " + color + " and filled : " + filled;
 	}
 	
-	public abstract double getArea();
 	
-	
-	public abstract double getPerimeter();
-
 	
 	
 	

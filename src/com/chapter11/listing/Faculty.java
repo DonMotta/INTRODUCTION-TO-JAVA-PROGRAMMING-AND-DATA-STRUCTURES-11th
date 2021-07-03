@@ -31,10 +31,10 @@ class Employee extends Person {
 
 }
 
-class Person {
-	
-	public Person() {
-		
-		System.out.println("(1) Performs Person's tasks ");
-	}
-}
+//class Person {
+//	
+//	public Person() {
+//		
+//		System.out.println("(1) Performs Person's tasks ");
+//	}
+//}

@@ -37,7 +37,7 @@ public class Circle extends GeometricObject {
 
 	public double getArea() {
 
-		return radius;
+		return radius * radius * Math.PI;
 	}
 
 	public double getDiameter() {
@@ -52,7 +52,7 @@ public class Circle extends GeometricObject {
 	
 	public void printCircle() {
 		
-		System.out.println("the circle is created " + getDateCreated() + " and radius is " + radius);
+		System.out.println("the circle is created " + super.getDateCreated() + " and radius is " + radius);
 		
 	}
 
