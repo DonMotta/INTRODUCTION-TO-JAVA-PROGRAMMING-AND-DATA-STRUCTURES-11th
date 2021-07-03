@@ -37,7 +37,7 @@ public class Circle extends GeometricObject {
 
 	public double getArea() {
 
-		return radius;
+		return radius * radius * Math.PI;
 	}
 
 	public double getDiameter() {
