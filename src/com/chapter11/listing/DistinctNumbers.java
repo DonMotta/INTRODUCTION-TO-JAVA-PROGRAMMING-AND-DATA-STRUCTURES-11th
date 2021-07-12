@@ -17,6 +17,7 @@ public class DistinctNumbers {
 		do {
 			
 			value = input.nextInt();
+			input.close();
 			if(!list.contains(value) && value != 0)
 				list.add(value);
 			
